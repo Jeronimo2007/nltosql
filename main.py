@@ -72,7 +72,7 @@ def reduce_context(prompt: str, sql_context: str, max_tables: int = 20) -> str:
     return "\n\n".join(unique_blocks)
 
 
-user_prompt ="How many marine species are found in the Southern Ocean?"
+user_prompt ="What are the common cybersecurity policies across all departments, according to our Policy Analysis database?"
 
 
 dataset = load_dataset("gretelai/synthetic_text_to_sql")
